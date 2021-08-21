@@ -1,0 +1,11 @@
+# .goreleaser.yml
+brews:
+  - 
+    name: awslist
+    tap:
+      owner: danpilch
+      name: homebrew-awls
+      token: "{{ .Env.GITHUB_TOKEN }}"
+    folder: Formula
+    description: "Find all taggable resources in an AWS region"
+    license: "MIT"
