@@ -4,7 +4,7 @@ brews:
     name: awslist
     tap:
       owner: danpilch
-      name: homebrew-awls
+      name:  homebrew-package-repo
       token: "{{ .Env.GITHUB_TOKEN }}"
     folder: Formula
     description: "Find all taggable resources in an AWS region"
